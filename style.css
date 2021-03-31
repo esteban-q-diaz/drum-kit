@@ -1,0 +1,14 @@
+.flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+ 
+  flex-basis: 1;
+}
+
+.sound {
+  border: solid 1px black;
+  height: 150px;
+  width: 150px;
+}
