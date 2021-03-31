@@ -1,149 +1,62 @@
 console.log('howdy')
 
 document.onkeypress = function (e) {
-  if (e.key === 'a') {
+  let keyPressed = e.key
+  // animate the key pressed
+  document.getElementById(`${keyPressed}`).animate([
+      { opacity: 0.7 },
+      { opacity: 1 },
+    ], {
+      duration: 100
+  });
+
+  if (keyPressed === 'a') {
     playKick()
-    document.getElementById("a").animate([
-      { opacity: 0.7 },
-      { opacity: 1 },
-    ], {
-      duration: 100
-    });
   }
-  if (e.key === 's') {
+  if (keyPressed === 's') {
     playClap()
-    document.getElementById("s").animate([
-      { opacity: 0.7 },
-      { opacity: 1 },
-    ], {
-      duration: 100
-    });
   }
-  if (e.key === 'd') {
+  if (keyPressed === 'd') {
     playHat()
-    document.getElementById("d").animate([
-      { opacity: 0.7 },
-      { opacity: 1 },
-    ], {
-      duration: 100
-    });
   }
-  if (e.key === 'f') {
+  if (keyPressed === 'f') {
     playRide()
-    document.getElementById("f").animate([
-      { opacity: 0.7 },
-      { opacity: 1 },
-    ], {
-      duration: 100
-    });
   }
-  if (e.key === 'g') {
+  if (keyPressed === 'g') {
     playSnare()
-    document.getElementById("g").animate([
-      { opacity: 0.7 },
-      { opacity: 1 },
-    ], {
-      duration: 100
-    });
   }
-  if (e.key === 'h') {
+  if (keyPressed === 'h') {
     playTom()
-    document.getElementById("h").animate([
-      { opacity: 0.7 },
-      { opacity: 1 },
-    ], {
-      duration: 100
-    });
   }
-  if (e.key === 'j') {
+  if (keyPressed === 'j') {
     playTrapHat()
-    document.getElementById("j").animate([
-      { opacity: 0.7 },
-      { opacity: 1 },
-    ], {
-      duration: 100
-    });
   }
-  if (e.key === 'k') {
+  if (keyPressed === 'k') {
     play808()
-    document.getElementById("k").animate([
-      { opacity: 0.7 },
-      { opacity: 1 },
-    ], {
-      duration: 100
-    });
   }
-  if (e.key === 'z') {
+  if (keyPressed === 'z') {
     playKick2()
-    document.getElementById("z").animate([
-      { opacity: 0.7 },
-      { opacity: 1 },
-    ], {
-      duration: 100
-    });
   }
-  if (e.key === 'x') {
+  if (keyPressed === 'x') {
     playClap2()
-    document.getElementById("x").animate([
-      { opacity: 0.7 },
-      { opacity: 1 },
-    ], {
-      duration: 100
-    });
   }
-  if (e.key === 'c') {
+  if (keyPressed === 'c') {
     play808Clap()
-    document.getElementById("c").animate([
-      { opacity: 0.7 },
-      { opacity: 1 },
-    ], {
-      duration: 100
-    });
   }
-  if (e.key === 'v') {
+  if (keyPressed === 'v') {
     playHiHat()
-    document.getElementById("v").animate([
-      { opacity: 0.7 },
-      { opacity: 1 },
-    ], {
-      duration: 100
-    });
   }
-  if (e.key === 'b') {
+  if (keyPressed === 'b') {
     playFill()
-    document.getElementById("b").animate([
-      { opacity: 0.7 },
-      { opacity: 1 },
-    ], {
-      duration: 100
-    });
   }
-  if (e.key === 'n') {
+  if (keyPressed === 'n') {
     playBrass()
-    document.getElementById("n").animate([
-      { opacity: 0.7 },
-      { opacity: 1 },
-    ], {
-      duration: 100
-    });
   }
-  if (e.key === 'm') {
+  if (keyPressed === 'm') {
     playWoo()
-    document.getElementById("m").animate([
-      { opacity: 0.7 },
-      { opacity: 1 },
-    ], {
-      duration: 100
-    });
   }
-  if (e.key === ',') {
+  if (keyPressed === ',') {
     playVoxChop()
-    document.getElementById(",").animate([
-      { opacity: 0.7 },
-      { opacity: 1 },
-    ], {
-      duration: 100
-    });
   }
 };
 
