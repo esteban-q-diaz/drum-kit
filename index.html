@@ -13,45 +13,154 @@
 </head>
 
 <body>
+  <div class="container">
+    <div class="title">
+      <h1>DRUM PAD</h1>
+      <p>Click the pad or press the coresponding key</p>
+    </div>
+  <div class="backsquare">
   <div class="flex">
     <div class="sound1">
-      <h1 class="sound" id="a">A - Kick</h1>
+      <h1  onclick="playKick()" class="sound" id="a"></h1>
+      <div class="words">
+    </div>
     </div>
     <div class="sound1">
-      <h1 class="sound"  id="s">S - Clap</h1>
+      <h1  onclick="playClap()" class="sound"  id="s"></h1>
     </div>
     <div class="sound1">
-      <h1 class="sound"  id="d">D - Hat</h1>
+      <h1  onclick="playHat()" class="sound"  id="d"></h1>
     </div>
     <div class="sound1">
-      <h1 class="sound"  id="f">F - Ride</h1>
+      <h1  onclick="playRide()" class="sound"  id="f"></h1>
+    </div>
+  </div>
+
+
+  <div class="description">
+    <div class="word1">
+      <p>Kick (A)</p>
+    </div>
+    <div class="word1">
+      <p>Clap (S)</p>
+    </div>
+    <div class="word1">
+      <p>Hat (D)</p>
+    </div>
+    <div class="word1">
+      <p>Ride (F)</p>
+    </div>
+  </div>
+
+
+  <div class="flex">
+    <div class="sound1">
+      <h1  onclick="playSnare()" class="sound"  id="g"></h1>
+
     </div>
     <div class="sound1">
-      <h1 class="sound"  id="g">G - Snare</h1>
+      <h1  onclick="playTom()" class="sound"  id="h"></h1>
+
     </div>
     <div class="sound1">
-      <h1 class="sound"  id="h">H - Tom</h1>
+      <h1  onclick="playTrapHat()" class="sound"  id="j"></h1>
+
     </div>
     <div class="sound1">
-      <h1 class="sound"  id="j">J - Trap Hat</h1>
+      <h1  onclick="play808()" class="sound"  id="k"></h1>
+    </div>
+  </div>
+
+  <div class="description">
+    <div class="word1">
+      <p>Snare (G)</p>
+    </div>
+    <div class="word1">
+      <p>Tom (H)</p>
+    </div>
+    <div class="word1">
+      <p>Trap Hat (J)</p>
+    </div>
+    <div class="word1">
+      <p>808 (K)</p>
+    </div>
+  </div>
+
+
+
+  <div class="flex">
+    <div class="sound1">
+      <h1  onclick="playKick2()" class="sound"  id="z"></h1>
+
     </div>
     <div class="sound1">
-      <h1 class="sound"  id="k">K - 808</h1>
+      <h1  onclick="playClap2()" class="sound"  id="x"></h1>
+
     </div>
     <div class="sound1">
-      <h1 class="sound"  id="l">L - Guitar</h1>
+      <h1  onclick="play808Clap()" class="sound"  id="c"></h1>
+
     </div>
+    <div class="sound1">
+      <h1  onclick="playHiHat()" class="sound"  id="v"></h1>
+
+    </div>
+  </div>
 
 
+  <div class="description">
+    <div class="word1">
+      <p>Kick 2 (Z)</p>
+    </div>
+    <div class="word1">
+      <p>Clap 2(X)</p>
+    </div>
+    <div class="word1">
+      <p>800 Snare(C)</p>
+    </div>
+    <div class="word1">
+      <p>HiHat(V))</p>
+    </div>
+  </div>
 
 
+  <div class="flex">
+    <div class="sound1">
+      <h1  onclick="playFill()" class="sound"  id="b"></h1>
 
+    </div>
+    <div class="sound1">
+      <h1  onclick="playBrass()" class="sound"  id="n"></h1>
 
+    </div>
+    <div class="sound1">
+      <h1  onclick="playWoo()" class="sound"  id="m"></h1>
 
+    </div>
+    <div class="sound1">
+      <h1  onclick="playVoxChop()" class="sound"  id=","></h1>
+    </div>
+  </div>
 
-
-
+  <div class="description">
+    <div class="word1">
+      <p>Fill (B)</p>
+    </div>
+    <div class="word1">
+      <p>Brass (N)</p>
+    </div>
+    <div class="word1">
+      <p>Chant (M)</p>
+    </div>
+    <div class="word1">
+      <p> VOX (,)</p>
+    </div>
+  </div>
 </div>
+
+
+  </div>
+
 
   <script src="index.js"></script>
 
