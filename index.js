@@ -1,184 +1,147 @@
-console.log('hi world')
-
-console.dir(window)
-
-
-
+console.log('howdy')
 
 document.onkeypress = function (e) {
   if (e.key === 'a') {
     playKick()
     document.getElementById("a").animate([
-      // keyframes
       { opacity: 0.7 },
       { opacity: 1 },
     ], {
-      // timing options
       duration: 100
     });
   }
   if (e.key === 's') {
     playClap()
     document.getElementById("s").animate([
-      // keyframes
       { opacity: 0.7 },
       { opacity: 1 },
     ], {
-      // timing options
       duration: 100
     });
   }
   if (e.key === 'd') {
     playHat()
     document.getElementById("d").animate([
-      // keyframes
       { opacity: 0.7 },
       { opacity: 1 },
     ], {
-      // timing options
       duration: 100
     });
   }
   if (e.key === 'f') {
     playRide()
     document.getElementById("f").animate([
-      // keyframes
       { opacity: 0.7 },
       { opacity: 1 },
     ], {
-      // timing options
       duration: 100
     });
   }
   if (e.key === 'g') {
     playSnare()
     document.getElementById("g").animate([
-      // keyframes
       { opacity: 0.7 },
       { opacity: 1 },
     ], {
-      // timing options
       duration: 100
     });
   }
   if (e.key === 'h') {
     playTom()
     document.getElementById("h").animate([
-      // keyframes
       { opacity: 0.7 },
       { opacity: 1 },
     ], {
-      // timing options
       duration: 100
     });
   }
   if (e.key === 'j') {
     playTrapHat()
     document.getElementById("j").animate([
-      // keyframes
       { opacity: 0.7 },
       { opacity: 1 },
     ], {
-      // timing options
       duration: 100
     });
   }
   if (e.key === 'k') {
     play808()
     document.getElementById("k").animate([
-      // keyframes
       { opacity: 0.7 },
       { opacity: 1 },
     ], {
-      // timing options
       duration: 100
     });
   }
   if (e.key === 'z') {
     playKick2()
     document.getElementById("z").animate([
-      // keyframes
       { opacity: 0.7 },
       { opacity: 1 },
     ], {
-      // timing options
       duration: 100
     });
   }
   if (e.key === 'x') {
     playClap2()
     document.getElementById("x").animate([
-      // keyframes
       { opacity: 0.7 },
       { opacity: 1 },
     ], {
-      // timing options
       duration: 100
     });
   }
   if (e.key === 'c') {
     play808Clap()
     document.getElementById("c").animate([
-      // keyframes
       { opacity: 0.7 },
       { opacity: 1 },
     ], {
-      // timing options
       duration: 100
     });
   }
   if (e.key === 'v') {
     playHiHat()
     document.getElementById("v").animate([
-      // keyframes
       { opacity: 0.7 },
       { opacity: 1 },
     ], {
-      // timing options
       duration: 100
     });
   }
   if (e.key === 'b') {
     playFill()
     document.getElementById("b").animate([
-      // keyframes
       { opacity: 0.7 },
       { opacity: 1 },
     ], {
-      // timing options
       duration: 100
     });
   }
   if (e.key === 'n') {
     playBrass()
     document.getElementById("n").animate([
-      // keyframes
       { opacity: 0.7 },
       { opacity: 1 },
     ], {
-      // timing options
       duration: 100
     });
   }
   if (e.key === 'm') {
     playWoo()
     document.getElementById("m").animate([
-      // keyframes
       { opacity: 0.7 },
       { opacity: 1 },
     ], {
-      // timing options
       duration: 100
     });
   }
   if (e.key === ',') {
     playVoxChop()
     document.getElementById(",").animate([
-      // keyframes
       { opacity: 0.7 },
       { opacity: 1 },
     ], {
-      // timing options
       duration: 100
     });
   }
